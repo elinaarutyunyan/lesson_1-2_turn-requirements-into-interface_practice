@@ -161,6 +161,6 @@
 
 **Комментарий заказчика:** ТЗ СОГЛАСОВАНО
 
-**Ссылка на PR с ТЗ:** [ВСТАВИТЬ ССЫЛКУ]
+**Ссылка на PR с ТЗ:** https://github.com/elinaarutyunyan/lesson_1-2_turn-requirements-into-interface_practice/pull/2
 
-**Статус:** СОГЛАСОВАНО
+**Статус:** MERGED
