@@ -164,3 +164,52 @@
 **Ссылка на PR с ТЗ:** https://github.com/elinaarutyunyan/lesson_1-2_turn-requirements-into-interface_practice/pull/2
 
 **Статус:** MERGED
+
+## 4. Отчет исполнителя о реализации
+
+Ссылка на исходное ТЗ: https://github.com/elinaarutyunyan/lesson_1-2_turn-requirements-into-interface_practice/blob/master/tech-task-template.md
+
+Ссылка на свой форк с домашней работой: https://github.com/elinaarutyunyan/lesson_1-2_turn-requirements-into-interface_homework.git
+
+Ссылка на замерженный PR с реализацией: https://github.com/elinaarutyunyan/lesson_1-2_turn-requirements-into-interface_homework/pull/1
+
+Ссылка на сайт в GitHub Pages: https://elinaarutyunyan.github.io/lesson_1-2_turn-requirements-into-interface_homework/project/
+
+Ссылка на конструктор: https://github.com/hse-drip-web-2026-2027/lesson_1-2_turn-requirements-into-interface_helpers.git
+
+Выбранный вариант работы: Вариант 1. Взять готовый каркас
+
+Использованные заготовки: templates/03-warm-cards/index.html и templates/03-warm-cards/styles.css , practice/06-responsive взяла за основу чтобы написать адаптацию
+
+Таблица соответствия требований и элементов страницы: 
+
+| Требование из ТЗ | Элемент страницы | Где в коде |
+| --- | --- | --- |
+| Первый экран: герой, тема, главная мысль | Hero | `<section class="hero card">` |
+| Название «Как чтение изменило мою жизнь» | Заголовок h1 | `<h1 id="hero-title">` |
+| Мысль о кругозоре и выражении мыслей | Подзаголовок | `<p class="hero__lead">` |
+| Три обязательных факта | Три карточки | `<div class="steps__grid">` |
+| Главное действие — обсудить книгу | Кнопка | `<a class="button button--secondary">` |
+
+Расположение Flexbox, Grid, БЭМ и медиазапроса: 
+Flexbox: .site-header, .next-step, .site-footer__inner, .hero__badge
+Grid: .hero, .story, .steps, .steps__grid
+БЭМ: .idea-card__index, .idea-card__title, .idea-card__text, .site-header__brand, .site-header__nav
+Медиазапрос: @media (max-width: 760px)
+
+Результат проверки на 360 px и 1200 px:
+На обеих ширинах:
+
+- нет горизонтальной прокрутки;
+- блоки не перекрывают друг друга;
+- текст не выходит за границы;
+- строки не становятся слишком длинными;
+- главная мысль и обязательные факты остаются заметны.
+- все ссылки открываются;
+- по интерактивным элементам можно пройти клавишей Tab;
+- для фокуса есть заметное состояние focus-visible;
+- текст и фон достаточно контрастны.
+
+Информация об использовании ИИ: использовался для проверки грамматики и орфографии
+
+Предусмотренный шаблоном статус: READY FOR CUSTOMER REVIEW.
